@@ -38,11 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f29d0cdfe1d802d9baceb168f45e427c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-28ccd983cd953ecfdf39786f2f7bd45e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/masonry-4.2.2/masonry.pkgd.min.js"></script>
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,13 +69,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <style>
-    body {
-        background-image: linear-gradient(135deg, #f2f1ef 0%, #c7d7e0 100%);
-        background-size: cover;
-        background-attachment: fixed;
-    }
+    # body {
+    #     background-image: linear-gradient(135deg, #f2f1ef 0%, #c7d7e0 100%);
+    #     background-size: cover;
+    #     background-attachment: fixed;
+    # }
     .grid-item {
-        width: 20%;
+        width: 100%;
         height: auto;
         float: center;
     }
@@ -152,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="content-block">
+<!-- ::::: {.content-block} -->
 <div class="grid">
 <section id="home" class="level2 g-col-12 g-col-md-12">
 <h2 data-anchor-id="home">Hi, we’re getting married!</h2>
@@ -191,55 +188,34 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <hr>
 </section>
-<div class="g-col-12 g-col-md-12" data-masonry="{ &quot;itemSelector&quot;: &quot;.grid-item&quot;, &quot;gutter&quot;: 0}">
-<div class="grid-sizer">
+<!-- ::: {.g-col-12 .g-col-md-12 data-masonry='{ "itemSelector": ".grid-item", "gutter": 0}'}
 
-</div>
-<div class="grid-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/IMG_0354.JPEG" class="lightbox" data-gallery="wedding-gallery" title="example-caption-02"><img src="images/IMG_0354.JPEG" class="img-fluid figure-img" alt="example-caption-02"></a></p>
-<figcaption>example-caption-02</figcaption>
-</figure>
-</div>
-</div>
-<div class="grid-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/IMG_0358.JPEG" class="lightbox" data-gallery="wedding-gallery" title="example-caption-03"><img src="images/IMG_0358.JPEG" class="img-fluid figure-img" alt="example-caption-03"></a></p>
-<figcaption>example-caption-03</figcaption>
-</figure>
-</div>
-</div>
-<div class="grid-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/IMG_0375.JPEG" class="lightbox" data-gallery="wedding-gallery" title="example-caption-04"><img src="images/IMG_0375.JPEG" class="img-fluid figure-img" alt="example-caption-04"></a></p>
-<figcaption>example-caption-04</figcaption>
-</figure>
-</div>
-</div>
-<div class="grid-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/IMG_0422.JPEG" class="lightbox" data-gallery="wedding-gallery" title="example-caption-05"><img src="images/IMG_0422.JPEG" class="img-fluid figure-img" alt="example-caption-05"></a></p>
-<figcaption>example-caption-05</figcaption>
-</figure>
-</div>
-</div>
-<div class="grid-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/IMG_4269.JPEG" class="lightbox" data-gallery="wedding-gallery" title="example-caption-05"><img src="images/IMG_4269.JPEG" class="img-fluid figure-img" alt="example-caption-05"></a></p>
-<figcaption>example-caption-05</figcaption>
-</figure>
-</div>
-</div>
+<div class="grid-sizer"></div>
+
+:::{.grid-item}
+![example-caption-02](images/IMG_0354.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-03](images/IMG_0358.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-04](images/IMG_0375.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-05](images/IMG_0422.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-05](images/IMG_4269.JPEG){group="wedding-gallery"}
+:::
 <!-- :::{.grid-item .item-hidden}
 ![example-caption-05](images/IMG_5894.jpg){group="wedding-gallery"}
+:::
+
 ::: -->
+<div class="g-col-12 g-col-lg-4 title-block">
+<p><img src="images/IMG_0354.JPEG" class="img-fluid"></p>
 </div>
-<section id="details" class="level2 g-col-12 g-col-md-12 title-block">
+<section id="details" class="level2 g-col-12 g-col-lg-8 title-block text-block">
 <h2 data-anchor-id="details">Details</h2>
 <hr>
 <p><em>Date</em><br>
@@ -255,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 </p>
 <p><em>Wai + Kathleen</em></p>
 </section>
-<section id="location" class="level2 g-col-12 g-col-md-12 title-block">
+<section id="location" class="level2 g-col-12 title-block text-block">
 <h2 data-anchor-id="location">Location</h2>
 <hr>
 <section id="dove-canyon-courtyard" class="level3">
@@ -268,19 +244,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 </section>
 </section>
-<section id="registry" class="level2 g-col-12 g-col-md-12 title-block">
+<section id="registry" class="level2 g-col-12 title-block text-block">
 <h2 data-anchor-id="registry">Wedding Registry</h2>
 <hr>
-<p>Your presence at our wedding is the greatest gift of all! However, if you wish to honor us with a gift, a contribution toward our future together would be wonderful. <strong>We will have a card box available at the reception for your convenience.</strong><br>
+<p>Your presence at our wedding is the greatest gift of all! However, if you wish to honor us with a gift, a contribution toward our future together would be wonderful. <strong>We will have a card box available at the reception for your convenience.</strong></p>
+<p><br>
 </p>
-<p>For those who prefer to shop online, our registry can be found below:<br>
+<p>For those who prefer to shop online, our registry can be found below:</p>
+<p><br>
 </p>
 <ul>
 <li><a href="#">Link to Registry 1</a></li>
 <li><a href="#">Link to Registry 2</a></li>
 </ul>
 </section>
-<section id="catering" class="level2 g-col-12 g-col-md-12 title-block">
+<section id="catering" class="level2 g-col-12 title-block text-block">
 <h2 data-anchor-id="catering">Catering Menu</h2>
 <hr>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -318,7 +296,7 @@ Important
 <li><strong>Wedding Cake &amp; Coffee Bar</strong></li>
 </ul>
 </section>
-<section id="faqs" class="level2 g-col-12 g-col-md-12 title-block">
+<section id="faqs" class="level2 g-col-12 title-block text-block">
 <h2 data-anchor-id="faqs">Frequently Asked Questions</h2>
 <hr>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -386,7 +364,7 @@ Important
 </div>
 </div>
 </section>
-<section id="contact" class="level2 g-col-12 g-col-md-12 title-block">
+<section id="contact" class="level2 g-col-12 title-block text-block">
 <h2 data-anchor-id="contact">Contact Us</h2>
 <hr>
 <p>If you have any questions that aren’t covered in the FAQs, or need to reach out to us regarding your RSVP, please let us know!</p>
@@ -401,11 +379,10 @@ Important
 <strong>Email:</strong> <a href="mailto:kathleen.wai0517@gmail.com">kathleen.wai0517@gmail.com</a></p>
 </section>
 <section id="day-of-wedding-contact" class="level4">
-<h4 data-anchor-id="day-of-wedding-contact">Day-of-Wedding Contact</h4>
+<h4 data-anchor-id="day-of-wedding-contact">Day of Wedding Contact</h4>
 <p><em>If you’re unable to reach us on the day of our wedding, please reach out to our coordinator / Maid of Honor / Best Man, [Name], at [Phone Number].</em></p>
 </section>
 </section>
-</div>
 <p><br>
 </p>
 </div>
@@ -807,38 +784,6 @@ Important
   });
   </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"fade","descPosition":"bottom","loop":true,"openEffect":"fade","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

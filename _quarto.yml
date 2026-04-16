@@ -33,10 +33,10 @@ format:
     page-layout: full
     # css: styles.css
     # grid:
-    #   sidebar-width: 10%
-    #   body-width: 80%
-    #   margin-width: 10%
-    #   gutter-width: 1.5rem
+      # sidebar-width: 100px
+      # body-width: 800px
+      # margin-width: 100px
+      # gutter-width: 1.5rem
     smooth-scroll: true
 
 

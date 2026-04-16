@@ -43,7 +43,7 @@ $link-color: $mw-color;
   backdrop-filter: blur(10px);
   // margin: 0vw 5vw 0vw 5vw;
   // border-bottom: 1px solid $black;
-  min-height: 20px;
+  // min-height: 20px;
   a:hover {
     text-decoration: solid $mw-color;
   }
@@ -53,63 +53,38 @@ html {
   scroll-padding-top: 100px;
 }
 
-
-// body {
-//   font-weight: 300;
-//   line-height: 1.4;
-// }
-
 h1,h2,h3,h4,h5,h6 {
   font-family: $font-family-sans-serif;
   border-bottom: 0 !important;
 }
 
-
-// Custom Classes
-.content-block {
-  border-bottom: 1px solid $mw-dark;
-  margin-bottom: 2em;
-
-  .h1 {
-    text-align: center;
-  }
-}
-
 .title-block {
   background-color: $mw-light;
-  font-size: 18px;
   border-radius: 20px;
-  text-align: left;
-  // align-content: center;
-  padding: 2em;
 
   // rule when title-block and text-block in same div
-  // + .text-block {
-  //   padding: 2em;
+  + .text-block {
+    padding-top: 0em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    p {
+      margin: auto
+    }
+  }
 
-  //   p {
-  //     margin: auto
-  //   }
-  // }
-
-  // p {
-  //   margin: auto;
-  // }
-  // + .img-text {
-  //   padding: 1em;
-  //   margin: auto;
-  // }
-}
-
-.image-block {
-  background-color: $mw-light;
-  font-size: 18px;
-  border-radius: 20px;
-  //   text-align: center;
-  align-content: center;
-  padding: 0em;
   p {
     margin: 0;
+  }
+  .img-text {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    p {
+      margin: auto
+    }
   }
   .img-fluid {
     border-radius: 20px;

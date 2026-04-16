@@ -5,13 +5,18 @@ project:
 website:
   # title: 
   navbar:
-    left:
-      - href: index.qmd#home
-        text: Home
-      - href: index.qmd#location
+    # logo: Kathleen & Wai
+    right:
+      # - href: index.qmd
+      #   text: Home
+      - href: https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed
         text: Location
-      - href: index.qmd#registry
-        text: Registry
+        target: _blank
+      - text: Registry
+        menu:
+          - text: Amazon
+            href: https://www.amazon.com
+            target: _blank
       - href: index.qmd#catering
         text: Catering
       - href: index.qmd#faqs
@@ -20,7 +25,7 @@ website:
         text: Contact
     search: false
     pinned: true
-    collapse-below: sm
+    toggle-position: right
   announcement:
     dismissable: true
     content: "Have you RSVP'ed to our wedding yet? If not please do so by XX.XX.XX!"
@@ -29,7 +34,7 @@ website:
 
 format:
   html:
-    theme: [wpkn_custom.scss]
+    theme: [wpkn_mat.scss]
     page-layout: full
     # css: styles.css
     # grid:

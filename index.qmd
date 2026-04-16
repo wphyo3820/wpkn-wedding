@@ -1,48 +1,37 @@
 ---
 pagetitle: "Wai & Kathleen"
-# title: "Hi, we're getting married!"
+title: "Hi, we're getting married!"
+subtitle: |
+    \
+    <span href="https://forms.google.com/..." class="btn-primary" role="button" target="_blank">RSVP</span>
+# title-block-style: plain
+# title-block-banner: true
 toc: false
 anchor-sections: false
 # lightbox:
 #     match: auto
 #     effect: fade
 #     loop: true
-filters:
-    - masonry
-include-in-header:
-    - text: |
-        <style>
-            # body {
-            #     background-image: linear-gradient(135deg, #f2f1ef 0%, #c7d7e0 100%);
-            #     background-size: cover;
-            #     background-attachment: fixed;
-            # }
-            .grid-item {
-                width: 100%;
-                height: auto;
-                float: center;
-            }
-            figcaption {
-                display: none;
-            }
-            .quarto-figure {
-                margin-bottom: 0px;
-            }
-            .item-hidden {
-                display: none;
-            }
-        </style>
+# include-in-header:
+#     - text: |
+        # <style>
+        #     body {
+        #         background-image: url('https://images.unsplash.com/photo-1543157145-f78c636d023d');
+        #         background-size: cover;
+        #         background-attachment: fixed;
+        #         background-position: center center;
+        #         background-repeat: no-repeat;
+        #     }
+        # </style>
 ---
 
-<!-- ::::: {.content-block} -->
-
-:::: {.grid}
+::: {.grid}
 
 ::: {.g-col-12 .g-col-md-12}
 
-## Hi, we're getting married!{#home}
+## Countdown:{#home}
 
-<div id="countdown" class="h4" style="margin-top: 1rem; margin-bottom: 1rem;"></div>
+<div id="countdown" class="h5" style="margin-top: 1rem; margin-bottom: 1rem;"></div>
 
 <script>
   // Set the date we're counting down to (Update this to your actual wedding date and time!)
@@ -79,39 +68,14 @@ include-in-header:
 
 :::
 
-<!-- ::: {.g-col-12 .g-col-md-12 data-masonry='{ "itemSelector": ".grid-item", "gutter": 0}'}
+::: {.g-col-12 .g-col-md-6 .material-card .image-fill}
 
-<div class="grid-sizer"></div>
-
-:::{.grid-item}
-![example-caption-02](images/IMG_0354.JPEG){group="wedding-gallery"}
-:::
-:::{.grid-item}
-![example-caption-03](images/IMG_0358.JPEG){group="wedding-gallery"}
-:::
-:::{.grid-item}
-![example-caption-04](images/IMG_0375.JPEG){group="wedding-gallery"}
-:::
-:::{.grid-item}
-![example-caption-05](images/IMG_0422.JPEG){group="wedding-gallery"}
-:::
-:::{.grid-item}
-![example-caption-05](images/IMG_4269.JPEG){group="wedding-gallery"}
-:::
-<!-- :::{.grid-item .item-hidden}
-![example-caption-05](images/IMG_5894.jpg){group="wedding-gallery"}
-:::
-
-::: -->
-
-::: {.g-col-12 .g-col-lg-4 .title-block}
-
-![](images/IMG_0354.JPEG){.img-fluid}
+![](images/IMG_5894.jpg){.img-fluid}
 
 :::
 
 
-::: {.g-col-12 .g-col-lg-8 .title-block .text-block}
+::: {.g-col-12 .g-col-md-6 .material-card}
 
 ## Details{#details}
 
@@ -125,7 +89,7 @@ _Date_
 
 _Time_
 \
-**3:00 PM to 8:00 PM**
+**3:00 PM to 9:00 PM**
 
 ---
 
@@ -135,20 +99,27 @@ _Dress Code_
 
 ---
 
-Please don't forget to [RSVP](www.google.com) by XX.XX.XX!
+_Registry_
 \
 
-_Wai + Kathleen_
+Your presence at our wedding is the greatest gift of all! However, if you wish to honor us with a gift, a contribution toward our future together would be wonderful. **We will have a card box available at the reception for your convenience.** 
+\
+
+For those who prefer digital, our registry can be found below:
+\
+
+* [Link to Registry 1](#)
+* [Link to Registry 2](#)
 
 :::
 
-::: {.g-col-12 .title-block .text-block}
+::: {.g-col-12 .material-card}
 
 ## Location{#location}
 
 ---
 
-### Dove Canyon Courtyard
+#### Dove Canyon Courtyard
 
 [31981 Dove Canyon Drive, Dove Canyon, CA  92679](https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed)
 \
@@ -161,26 +132,7 @@ The ceremony and reception will both be held at the same location.
 <!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 :::
 
-::: {.g-col-12 .title-block .text-block}
-
-## Wedding Registry{#registry}
-
----
-
-Your presence at our wedding is the greatest gift of all! However, if you wish to honor us with a gift, a contribution toward our future together would be wonderful. **We will have a card box available at the reception for your convenience.** 
-
-\
-
-For those who prefer to shop online, our registry can be found below:
-
-\
-
-* [Link to Registry 1](#)
-* [Link to Registry 2](#)
-
-:::
-
-::: {.g-col-12 .title-block .text-block}
+::: {.g-col-12 .material-card}
 
 ## Catering Menu{#catering}
 
@@ -192,28 +144,32 @@ Please let us know ahead of time if you have any dietary restrictions.
 
 :::
 
-_Cocktail Hour_
-\
+**Cocktail Hour**\
 
-* **Selection A**
-* **Selection B**
+* Selection A
+* Selection B
 
+**Appetizers - Stationed**\
 
-_Main Course_
-\
+* Crab Salad with Chips
+* Veggie Egg Rolls
+* Veggie Crudites
 
-* **Beef:** [e.g., Herb-Crusted Filet Mignon with Roasted Asparagus]
-* **Fish:** [e.g., Pan-Seared Salmon with Lemon Caper Butter]
-* **Vegetarian:** [e.g., Wild Mushroom Risotto]
+**Main Course**\
 
-_Dessert_
-\
-
-* **Wedding Cake & Coffee Bar**
+* Asian Charcuterie Plate
+* Fish Maw & Crab Soup
+* House Special Lobster with Garlic Noodles
+* Filet Mignon Shaken Beef
+* Honey Walnut Shrimp
+* Peking Duck with Steamed Bun
+* Fish Filet with Sweet Basil Sauce
+* Classic House Special Fried Rice
+* Dessert: Sliced Oranges & Longans
 
 :::
 
-::: {.g-col-12 .title-block .text-block}
+::: {.g-col-12 .material-card}
 
 ## Frequently Asked Questions{#faqs}
 
@@ -255,7 +211,7 @@ Expect Southern California weather! It should be warm during the day but might c
 :::
 
 
-::: {.g-col-12 .title-block .text-block}
+::: {.g-col-12 .material-card}
 
 ## Contact Us{#contact}
 
@@ -263,21 +219,21 @@ Expect Southern California weather! It should be warm during the day but might c
 
 If you have any questions that aren't covered in the FAQs, or need to reach out to us regarding your RSVP, please let us know!
 
-#### Wai Phyo
+##### Wai Phyo
 **Phone:** (415) 692-8896
 \
 **Email:** [wphyo3820@gmail.com](mailto:wphyo3820@gmail.com)  
 
-#### Kathleen Nguyen
+##### Kathleen Nguyen
 **Phone:** (619) 902-9544
 \
 **Email:** [kathleen.wai0517@gmail.com](mailto:kathleen.wai0517@gmail.com)
 
-#### Day of Wedding Contact
+##### Day of Wedding Contact
 *If you're unable to reach us on the day of our wedding, please reach out to our coordinator / Maid of Honor / Best Man, [Name], at [Phone Number].*
 
 :::
 
 \
 
-::::
+:::

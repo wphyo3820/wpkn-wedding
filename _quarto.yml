@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  # title: 
+  navbar:
+    left:
+      - href: index.qmd#home
+        text: Home
+      - href: index.qmd#location
+        text: Location
+      - href: index.qmd#registry
+        text: Registry
+      - href: index.qmd#catering
+        text: Catering
+      - href: index.qmd#faqs
+        text: FAQs
+      - href: index.qmd#contact
+        text: Contact
+    search: false
+    pinned: true
+    collapse-below: sm
+  announcement:
+    dismissable: true
+    content: "Have you RSVP'ed to our wedding yet? If not please do so by XX.XX.XX!"
+    type: warning
+    position: above-navbar
+
+format:
+  html:
+    theme: [wpkn_custom.scss]
+    page-layout: full
+    # css: styles.css
+    # grid:
+    #   sidebar-width: 10%
+    #   body-width: 80%
+    #   margin-width: 10%
+    #   gutter-width: 1.5rem
+    smooth-scroll: true
+
+
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Color Variables */
+$black : #000000;
+$white: #ffffff;
+
+$mw-color: #2A73B1; //a00000
+$mw-color-light: #F28C00;
+$mw-secondary: #D72436;
+$mw-secondary-light: #44418F;
+
+$mw-dark: #22262D;
+$mw-light: #f2f1ef;
+$mw-light-secondary: #e2e1df;
+$font-color: #000000;
+
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Inter", serif;
+
+// $body-bg: $mw-light;
+// $code-block-bg: $mw-light-secondary; //e1d3d0
+// $code-bg: $mw-light-secondary;
+// $code-color: $font-color;
+// $border-color: #ccbbb1; // color of citation border
+
+// $navbar-bg: $mw-light;
+$navbar-bg: transparent;
+// $navbar-fg: $mw-color;
+// $footer-bg: transparent;
+// $footer-fg: $font-color;
+
+$warning: $mw-color-light;
+
+$primary: $mw-color;
+$secondary: $mw-secondary;
+$link-color: $mw-color;
+
+.navbar {
+  font-family: $font-family-sans-serif;
+  // text-transform: lowercase;
+  font-weight: 600;
+  position: relative;
+  backdrop-filter: blur(10px);
+  // margin: 0vw 5vw 0vw 5vw;
+  // border-bottom: 1px solid $black;
+  min-height: 20px;
+  a:hover {
+    text-decoration: solid $mw-color;
+  }
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+
+// body {
+//   font-weight: 300;
+//   line-height: 1.4;
+// }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-family-sans-serif;
+  border-bottom: 0 !important;
+}
+
+
+// Custom Classes
+.content-block {
+  border-bottom: 1px solid $mw-dark;
+  margin-bottom: 2em;
+
+  .h1 {
+    text-align: center;
+  }
+}
+
+.title-block {
+  background-color: $mw-light;
+  font-size: 18px;
+  border-radius: 20px;
+  text-align: left;
+  // align-content: center;
+  padding: 2em;
+
+  // rule when title-block and text-block in same div
+  // + .text-block {
+  //   padding: 2em;
+
+  //   p {
+  //     margin: auto
+  //   }
+  // }
+
+  // p {
+  //   margin: auto;
+  // }
+  // + .img-text {
+  //   padding: 1em;
+  //   margin: auto;
+  // }
+}
+
+.image-block {
+  background-color: $mw-light;
+  font-size: 18px;
+  border-radius: 20px;
+  //   text-align: center;
+  align-content: center;
+  padding: 0em;
+  p {
+    margin: 0;
+  }
+  .img-fluid {
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,275 @@
+---
+pagetitle: "Wai & Kathleen"
+# title: "Hi, we're getting married!"
+toc: false
+anchor-sections: false
+lightbox:
+    match: auto
+    effect: fade
+    loop: true
+filters:
+    - masonry
+include-in-header:
+    - text: |
+        <style>
+            body {
+                background-image: linear-gradient(135deg, #f2f1ef 0%, #c7d7e0 100%);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .grid-item {
+                width: 20%;
+                height: auto;
+                float: center;
+            }
+            figcaption {
+                display: none;
+            }
+            .quarto-figure {
+                margin-bottom: 0px;
+            }
+            .item-hidden {
+                display: none;
+            }
+        </style>
+---
+
+::::: {.content-block}
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-12}
+
+## Hi, we're getting married!{#home}
+
+<div id="countdown" class="h4" style="margin-top: 1rem; margin-bottom: 1rem;"></div>
+
+<script>
+  // Set the date we're counting down to (Update this to your actual wedding date and time!)
+  var countDownDate = new Date("Dec 6, 2026 15:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="countdown"
+    document.getElementById("countdown").innerHTML = days + " Days • " + hours + " Hours • "
+    + minutes + " Minutes • " + seconds + " Seconds";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "Thank you everyone for celebrating with us!";
+    }
+  }, 1000);
+</script>
+---
+
+:::
+
+::: {.g-col-12 .g-col-md-12 data-masonry='{ "itemSelector": ".grid-item", "gutter": 0}'}
+
+<div class="grid-sizer"></div>
+
+:::{.grid-item}
+![example-caption-02](images/IMG_0354.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-03](images/IMG_0358.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-04](images/IMG_0375.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-05](images/IMG_0422.JPEG){group="wedding-gallery"}
+:::
+:::{.grid-item}
+![example-caption-05](images/IMG_4269.JPEG){group="wedding-gallery"}
+:::
+<!-- :::{.grid-item .item-hidden}
+![example-caption-05](images/IMG_5894.jpg){group="wedding-gallery"}
+::: -->
+
+:::
+
+::: {.g-col-12 .g-col-md-12 .title-block}
+
+## Details{#details}
+
+---
+
+_Date_
+\
+**Sunday, Dec 6th, 2026**
+
+---
+
+_Time_
+\
+**3:00 PM to 8:00 PM**
+
+---
+
+_Dress Code_
+\
+**Semi-Formal / Cocktail Attire**
+
+---
+
+Please don't forget to [RSVP](www.google.com) by XX.XX.XX!
+\
+
+_Wai + Kathleen_
+
+:::
+
+::: {.g-col-12 .g-col-md-12 .title-block}
+
+## Location{#location}
+
+---
+
+### Dove Canyon Courtyard
+
+[31981 Dove Canyon Drive, Dove Canyon, CA  92679](https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed)
+\
+
+The ceremony and reception will both be held at the same location.
+
+\
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.582688824683!2d-117.5727888!3d33.642060799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dceb3d8b49e0ef%3A0x5df27678eca4d8e0!2s31981%20Dove%20Canyon%20Dr%2C%20Dove%20Canyon%2C%20CA%2092679!5e0!3m2!1sen!2sus!4v1776277867507!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+:::
+
+::: {.g-col-12 .g-col-md-12 .title-block}
+
+## Wedding Registry{#registry}
+
+---
+
+Your presence at our wedding is the greatest gift of all! However, if you wish to honor us with a gift, a contribution toward our future together would be wonderful. **We will have a card box available at the reception for your convenience.** 
+\
+
+For those who prefer to shop online, our registry can be found below:
+\
+
+* [Link to Registry 1](#)
+* [Link to Registry 2](#)
+
+:::
+
+::: {.g-col-12 .g-col-md-12 .title-block}
+
+## Catering Menu{#catering}
+
+---
+
+::: {.callout-important collapse="false"}
+
+Please let us know ahead of time if you have any dietary restrictions.
+
+:::
+
+_Cocktail Hour_
+\
+
+* **Selection A**
+* **Selection B**
+
+
+_Main Course_
+\
+
+* **Beef:** [e.g., Herb-Crusted Filet Mignon with Roasted Asparagus]
+* **Fish:** [e.g., Pan-Seared Salmon with Lemon Caper Butter]
+* **Vegetarian:** [e.g., Wild Mushroom Risotto]
+
+_Dessert_
+\
+
+* **Wedding Cake & Coffee Bar**
+
+:::
+
+::: {.g-col-12 .g-col-md-12 .title-block}
+
+## Frequently Asked Questions{#faqs}
+
+---
+
+::: {.callout-tip collapse="false"}
+
+### Is there parking at the venue?
+
+Yes, there is a parking lot on-site.
+
+:::
+
+::: {.callout-tip collapse="false"}
+
+### Are kids welcome?
+
+Yes, we love kids! But, please do indicate ahead in your RSVP if you are bringing kids.
+
+:::
+
+::: {.callout-tip collapse="false"}
+
+### Are pets welcome?
+
+We love our furry friends! But, please note that our wedding is a pet-free event. We love your animals, but we kindly ask that you leave them at home so you can enjoy the celebration to the fullest.
+
+:::
+
+::: {.callout-tip collapse="false"}
+
+### What will the weather be like?
+
+Expect Southern California weather! It should be warm during the day but might cool down in the evening, so we recommend bringing a light jacket or wrap.
+
+:::
+
+
+:::
+
+
+::: {.g-col-12 .g-col-md-12 .title-block}
+
+## Contact Us{#contact}
+
+---
+
+If you have any questions that aren't covered in the FAQs, or need to reach out to us regarding your RSVP, please let us know!
+
+#### Wai Phyo
+**Phone:** (415) 692-8896
+\
+**Email:** [wphyo3820@gmail.com](mailto:wphyo3820@gmail.com)  
+
+#### Kathleen Nguyen
+**Phone:** (619) 902-9544
+\
+**Email:** [kathleen.wai0517@gmail.com](mailto:kathleen.wai0517@gmail.com)
+
+#### Day-of-Wedding Contact
+*If you're unable to reach us on the day of our wedding, please reach out to our coordinator / Maid of Honor / Best Man, [Name], at [Phone Number].*
+
+:::
+
+::::
+
+\
+
+:::::

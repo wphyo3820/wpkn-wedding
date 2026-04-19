@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 
 /* colors and variables */
 $md-elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 $md-elevation-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-$card-radius: 16px;
+$card-radius: 20px;
 $button-radius: 100px; /* Pill-shaped */
 
 $black: #000000;
@@ -14,13 +15,15 @@ $wp-primary: #2A73B1; //a00000
 $wp-secondary: #C04062;
 
 $wp-dark: #22262D;
+$wp-gray: #9F9F99;
 $wp-light: #f2f1ef;
 $font-color: $black;
 
 
 $primary: $wp-primary;
 $secondary: $wp-secondary;
-
+$body-bg: #e1ecf7;
+$card-bg: #f8f9fb;
 
 $suceess: #5E8F2F;
 $warning: #E05700;
@@ -32,6 +35,13 @@ $info: #2E96B0;
 
 /*-- scss:defaults --*/
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+.title {
+  font-family: "Sacramento";
+  font-size: 3.5em;
+  text-align: center;
+  // color: #2c3e50;
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $font-family-sans-serif;
@@ -55,7 +65,7 @@ $navbar-bg: transparent;
   font-weight: 400;
   position: relative;
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid $wp-light;
+  border-bottom: 1px solid $wp-gray;
 }
 
 
@@ -63,12 +73,12 @@ $navbar-bg: transparent;
 
 /* Material Card Definition */
 .material-card {
-  background-color: $wp-light;
+  background-color: $card-bg;
   border-radius: $card-radius;
-  // box-shadow: $md-elevation-1;
+  box-shadow: $md-elevation-1;
   padding: 24px;
   margin-bottom: 16px;
-  // transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s ease;
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s ease;
 
   /* Slight lift effect on hover */
   // &:hover {

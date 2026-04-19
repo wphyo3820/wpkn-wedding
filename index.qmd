@@ -1,9 +1,9 @@
 ---
 pagetitle: "Wai & Kathleen"
-title: "Hi, we're getting married!"
+title: "You are invited!"
 subtitle: |
-    \
-    <span href="https://forms.google.com/..." class="btn-primary" role="button" target="_blank">RSVP</span>
+    <div style="text-align: center">
+    <span href="https://forms.google.com/..." class="btn-primary" role="button" target="_blank">RSVP</span></div>
 # title-block-style: plain
 # title-block-banner: true
 toc: false
@@ -12,22 +12,22 @@ anchor-sections: false
 #     match: auto
 #     effect: fade
 #     loop: true
-# include-in-header:
-#     - text: |
-        # <style>
-        #     body {
-        #         background-image: url('https://images.unsplash.com/photo-1543157145-f78c636d023d');
-        #         background-size: cover;
-        #         background-attachment: fixed;
-        #         background-position: center center;
-        #         background-repeat: no-repeat;
-        #     }
-        # </style>
+include-in-header:
+    - text: |
+        <style>
+            body {
+                background-image: url('https://images.unsplash.com/photo-1641169496668-a9fc13a40bb9');
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        </style>
 ---
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-12}
+::: {.g-col-12 .g-col-md-12 style="text-align: center"}
 
 ## Countdown:{#home}
 
@@ -53,8 +53,8 @@ anchor-sections: false
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="countdown"
-    document.getElementById("countdown").innerHTML = days + " Days • " + hours + " Hours • "
-    + minutes + " Minutes • " + seconds + " Seconds";
+    document.getElementById("countdown").innerHTML = days + " d • " + hours + " h • "
+    + minutes + " m • " + seconds + " s";
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -175,7 +175,7 @@ Please let us know ahead of time if you have any dietary restrictions.
 
 ---
 
-::: {.callout-tip collapse="false"}
+::: {.callout-note collapse="false"}
 
 ### Is there parking at the venue?
 
@@ -183,7 +183,7 @@ Yes, there is a parking lot on-site.
 
 :::
 
-::: {.callout-tip collapse="false"}
+::: {.callout-note collapse="false"}
 
 ### Are kids welcome?
 
@@ -191,7 +191,7 @@ Yes, we love kids! But, please do indicate ahead in your RSVP if you are bringin
 
 :::
 
-::: {.callout-tip collapse="false"}
+::: {.callout-note collapse="false"}
 
 ### Are pets welcome?
 
@@ -199,7 +199,7 @@ We love our furry friends! But, please note that our wedding is a pet-free event
 
 :::
 
-::: {.callout-tip collapse="false"}
+::: {.callout-note collapse="false"}
 
 ### What will the weather be like?
 

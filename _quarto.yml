@@ -44,5 +44,7 @@ format:
       # gutter-width: 1.5rem
     smooth-scroll: true
 
+resources:
+  - CNAME
 
 

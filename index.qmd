@@ -37,10 +37,6 @@ include-in-header:
             }
         </style>
 ---
-::: {.bg-parallax}
-:::
-::: {.bg-overlay}
-:::
 
 ::: {.grid}
 

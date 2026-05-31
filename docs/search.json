@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "photobook.html",
+    "href": "photobook.html",
+    "title": "",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "photobook.html#photobook",
+    "href": "photobook.html#photobook",
+    "title": "",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "index.html#details",
     "href": "index.html#details",
     "title": "Kathleen & Wai",
@@ -12,6 +26,13 @@
     "title": "Kathleen & Wai",
     "section": "Location",
     "text": "Location\n\n\nDove Canyon Courtyard\n31981 Dove Canyon Drive, Dove Canyon, CA 92679\n\nThe ceremony and reception will both be held at the same location."
+  },
+  {
+    "objectID": "index.html#photobook",
+    "href": "index.html#photobook",
+    "title": "Kathleen & Wai",
+    "section": "Photobook",
+    "text": "Photobook\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      \n      \n      Previous\n      \n    \n      \n      \n      Next"
   },
   {
     "objectID": "index.html#catering",
@@ -33,33 +54,5 @@
     "title": "Kathleen & Wai",
     "section": "Contact Us",
     "text": "Contact Us\n\nIf you have any questions that aren’t covered in the FAQs, or need to reach out to us regarding your RSVP, please let us know!\n\nWai Phyo\nPhone: (415) 693-8896\nEmail: wphyo3820@gmail.com\n\n\nKathleen Nguyen\nPhone: (619) 902-9544\nEmail: kathleen.wai0517@gmail.com"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html#photobook",
-    "href": "index.html#photobook",
-    "title": "Kathleen & Wai",
-    "section": "Photobook",
-    "text": "Photobook\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      \n      \n      Previous\n      \n    \n      \n      \n      Next"
-  },
-  {
-    "objectID": "photobook.html",
-    "href": "photobook.html",
-    "title": "",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "photobook.html#photobook",
-    "href": "photobook.html#photobook",
-    "title": "",
-    "section": "",
-    "text": "No matching items"
   }
 ]

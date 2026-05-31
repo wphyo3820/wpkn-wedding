@@ -7,16 +7,13 @@ website:
   navbar:
     # logo: Kathleen & Wai
     right:
-      # - href: index.qmd
-      #   text: Home
+      - href: index.qmd
+        text: Home
       - href: https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed
         text: Location
         target: _blank
-      - text: Registry
-        menu:
-          - text: Amazon
-            href: https://www.amazon.com
-            target: _blank
+      - href: index.qmd#photos
+        text: Photos 
       - href: index.qmd#catering
         text: Catering
       - href: index.qmd#faqs
@@ -38,13 +35,14 @@ format:
     page-layout: full
     # css: styles.css
     # grid:
-      # sidebar-width: 100px
-      # body-width: 800px
-      # margin-width: 100px
-      # gutter-width: 1.5rem
+    #   sidebar-width: 100px
+    #   body-width: 1200px
+    #   margin-width: 100px
+    #   gutter-width: 1.5rem
     smooth-scroll: true
 
 resources:
   - CNAME
 
-
+filters:
+  - carousel

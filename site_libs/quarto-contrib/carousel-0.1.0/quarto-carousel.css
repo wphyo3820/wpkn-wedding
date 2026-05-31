@@ -1,5 +1,5 @@
 .carousel-item {
-  min-height: 300px;
+  /* min-height: 300px; */
   position: relative;
   box-sizing: border-box;
 }
@@ -41,18 +41,18 @@
 }
 
 .carousel.carousel-framed .carousel-item {
-  padding-bottom: 110px;
+  padding-bottom: 5px;
   background-clip: content-box;
 }
 
 .carousel.carousel-framed .overlay {
   box-sizing: border-box;
-  padding-bottom: 110px;
+  padding-bottom: 5px;
 }
 
 .carousel.carousel-framed .carousel-control-prev-icon,
 .carousel.carousel-framed .carousel-control-next-icon {
-    margin-bottom: 110px;
+    margin-bottom: 5px;
 }
 
 

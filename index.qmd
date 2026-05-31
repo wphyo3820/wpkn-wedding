@@ -49,68 +49,7 @@ Your presence at our wedding is the greatest gift of all! However, if you wish t
 
 :::
 
-
-::: {.g-col-12 .g-col-md-4 .material-card}
-
-## Location{#location}
-
----
-
-#### Dove Canyon Courtyard
-
-[31981 Dove Canyon Drive, Dove Canyon, CA  92679](https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed)
-\
-
-The ceremony and reception will both be held at the same location.
-
-\
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.582688824683!2d-117.5727888!3d33.642060799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dceb3d8b49e0ef%3A0x5df27678eca4d8e0!2s31981%20Dove%20Canyon%20Dr%2C%20Dove%20Canyon%2C%20CA%2092679!5e0!3m2!1sen!2sus!4v1776277867507!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-:::
-
-::: {.g-col-12 .g-col-md-4 .material-card}
-
-## Catering Menu{#catering}
-
----
-
-::: {.callout-important collapse="false"}
-
-Please let us know ahead of time if you have any dietary restrictions.
-
-:::
-
-**Cocktail Hour**\
-
-* Open-bar!
-
-**Appetizers - Stationed**\
-
-* Crab Salad with Chips
-* Veggie Egg Rolls
-* Veggie Crudites
-
-**Main Course**\
-
-* Asian Charcuterie Plate
-* Fish Maw & Crab Soup
-* House Special Lobster with Garlic Noodles
-* Filet Mignon Shaken Beef
-* Honey Walnut Shrimp
-* Peking Duck with Steamed Bun
-* Fish Filet with Sweet Basil Sauce
-* Classic House Special Fried Rice
-* Dessert: Sliced Oranges & Longans
-
-:::
-
-
-::: {.g-col-12 .material-card}
-
-## Photos{#photos}
-
----
+::: {.g-col-12 .g-col-md-8 .material-card}
 
 :::: {.carousel .dark .framed indicators="false"} 
 
@@ -165,6 +104,62 @@ Please let us know ahead of time if you have any dietary restrictions.
 :::
 
 :::
+
+::: {.g-col-12 .g-col-md-6 .material-card}
+
+## Location{#location}
+
+---
+
+#### Dove Canyon Courtyard
+
+[31981 Dove Canyon Drive, Dove Canyon, CA  92679](https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed)
+\
+
+The ceremony and reception will both be held at the same location.
+
+\
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.582688824683!2d-117.5727888!3d33.642060799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dceb3d8b49e0ef%3A0x5df27678eca4d8e0!2s31981%20Dove%20Canyon%20Dr%2C%20Dove%20Canyon%2C%20CA%2092679!5e0!3m2!1sen!2sus!4v1776277867507!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+:::
+
+::: {.g-col-12 .g-col-md-6 .material-card}
+
+## Catering Menu{#catering}
+
+---
+
+::: {.callout-important collapse="false"}
+
+Please let us know ahead of time if you have any dietary restrictions.
+
+:::
+
+**Cocktail Hour**\
+
+* Open-bar!
+
+**Appetizers - Stationed**\
+
+* Crab Salad with Chips
+* Veggie Egg Rolls
+* Veggie Crudites
+
+**Main Course**\
+
+* Asian Charcuterie Plate
+* Fish Maw & Crab Soup
+* House Special Lobster with Garlic Noodles
+* Filet Mignon Shaken Beef
+* Honey Walnut Shrimp
+* Peking Duck with Steamed Bun
+* Fish Filet with Sweet Basil Sauce
+* Classic House Special Fried Rice
+* Dessert: Sliced Oranges & Longans
+
+:::
+
 
 
 ::: {.g-col-12 .material-card}

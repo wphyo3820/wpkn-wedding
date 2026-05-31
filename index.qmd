@@ -2,93 +2,28 @@
 pagetitle: "Wai & Kathleen"
 title: "You are invited!"
 subtitle: |
-    <div style="text-align: center">
-    <span href="https://forms.google.com/..." class="btn-primary" role="button" target="_blank">RSVP</span></div>
-# title-block-style: plain
-# title-block-banner: true
+    <span href="https://forms.google.com/..." class="btn-primary" role="button" target="_blank">RSVP</span>
+title-block-banner: images/BIBO9020_BAN.jpg
 toc: false
 anchor-sections: false
 # lightbox:
 #     match: auto
 #     effect: fade
 #     loop: true
-include-in-header:
-    - text: |
-        <link rel="preload" href="images/kerri-shaver-xepikEyPgmI-unsplash.jpg" as="image">
-        <style>
-            # body {
-            #     background-image: url('https://images.unsplash.com/photo-1641169496668-a9fc13a40bb9');
-            #     background-size: cover;
-            #     background-attachment: fixed;
-            #     background-repeat: no-repeat;
-            # }
-            body::before {
-              content: "";
-              position: fixed;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background-image: url("images/kerri-shaver-xepikEyPgmI-unsplash.jpg");
-              background-size: cover;
-              background-position: center;
-              z-index: -1;
-              will-change: transform; /* Helps with rendering performance */
-            }
-        </style>
 ---
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-12 style="text-align: center"}
+::: -->
 
-## Countdown:{#home}
+<!-- ::: {.g-col-12 .g-col-md-12 .material-card .image-fill}
 
-<div id="countdown" class="h5" style="margin-top: 1rem; margin-bottom: 1rem;"></div>
+![](images/BIBO9020_BAN.jpg){.img-fluid}
 
-<script>
-  // Set the date we're counting down to (Update this to your actual wedding date and time!)
-  var countDownDate = new Date("Dec 6, 2026 15:00:00").getTime();
-
-  // Update the count down every 1 second
-  var x = setInterval(function() {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    // Display the result in the element with id="countdown"
-    document.getElementById("countdown").innerHTML = days + " d • " + hours + " h • "
-    + minutes + " m • " + seconds + " s";
-
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("countdown").innerHTML = "Thank you everyone for celebrating with us!";
-    }
-  }, 1000);
-</script>
-
----
-
-:::
-
-::: {.g-col-12 .g-col-md-6 .material-card .image-fill}
-
-![](images/IMG_5894.jpg){.img-fluid}
-
-:::
+::: -->
 
 
-::: {.g-col-12 .g-col-md-6 .material-card}
+::: {.g-col-12 .g-col-md-12 .material-card}
 
 ## Details{#details}
 
@@ -233,7 +168,7 @@ Expect Southern California weather! It should be warm during the day but might c
 If you have any questions that aren't covered in the FAQs, or need to reach out to us regarding your RSVP, please let us know!
 
 ##### Wai Phyo
-**Phone:** (415) 692-8896
+**Phone:** (415) 693-8896
 \
 **Email:** [wphyo3820@gmail.com](mailto:wphyo3820@gmail.com)  
 

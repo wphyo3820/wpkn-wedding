@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tangerine:wght@400;700&display=swap');
 
 
 /* colors and variables */
@@ -42,6 +41,7 @@ $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
   font-size: 4em;
   text-align: center;
   font-weight: 700;
+  font-display: swap;
   // letter-spacing: 0.12em;
   // color: #2c3e50;
 }
@@ -122,24 +122,6 @@ $navbar-bg: transparent;
   }
 }
 
-/* Material M3 Filled Button */
-// .btn-primary {
-//   background-color: $primary;
-//   color: #ffffff;
-//   border: none;
-//   border-radius: $button-radius;
-//   padding: 12px 32px;
-//   font-weight: 500;
-//   // text-transform: uppercase;
-//   // letter-spacing: 0.05em;
-//   // box-shadow: $md-elevation-1;
-//   transition: all 0.2s ease;
-
-//   &:hover {
-//     background-color: lighten($primary, 5%);
-//     // box-shadow: $md-elevation-2;
-//   }
-// }
 .btn-rsvp {
   /* Core iOS Glass Effect */
   background: rgba(255, 255, 255, 0.15);

@@ -20,7 +20,7 @@ website:
         text: FAQs
       - href: index.qmd#contact
         text: Contact
-      - href: https://google.com
+      - href: https://forms.gle/zCLoR1PwDVxso5QC6
         text: RSVP
         target: _blank
     search: false
@@ -36,12 +36,6 @@ format:
   html:
     theme: [wpkn_mat.scss]
     page-layout: full
-    # css: styles.css
-    # grid:
-    #   sidebar-width: 100px
-    #   body-width: 1200px
-    #   margin-width: 100px
-    #   gutter-width: 1.5rem
     smooth-scroll: true
 
 resources:

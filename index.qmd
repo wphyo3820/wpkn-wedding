@@ -2,7 +2,7 @@
 pagetitle: "Wai & Kathleen"
 title: "Kathleen & Wai"
 subtitle: |
-    <span href="https://forms.google.com/..." class="btn-rsvp" role="button" target="_blank">Click to RSVP</span>
+    <a href="https://forms.gle/zCLoR1PwDVxso5QC6" class="btn-rsvp" role="button" target="_blank">Click to RSVP</a>
 title-block-banner: images/BIBO9020_BAN.jpg
 toc: false
 anchor-sections: false
@@ -10,8 +10,6 @@ lightbox: auto
 ---
 
 ![](images/BIBO9020_BAN.jpg){.lightbox style="display:none;width:0;height:0;position:absolute"}
-
-<!-- # Kathleen and Wai are getting married. -->
 
 ::: {.grid}
 
@@ -65,7 +63,6 @@ The ceremony and reception will both be held at the same location.
 \
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.582688824683!2d-117.5727888!3d33.642060799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dceb3d8b49e0ef%3A0x5df27678eca4d8e0!2s31981%20Dove%20Canyon%20Dr%2C%20Dove%20Canyon%2C%20CA%2092679!5e0!3m2!1sen!2sus!4v1776277867507!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 :::
 
 ::: {.g-col-12 .material-card .mobile-hidden-card}

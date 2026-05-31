@@ -14,8 +14,6 @@ anchor-sections: false
 
 ::: {.grid}
 
-::: -->
-
 <!-- ::: {.g-col-12 .g-col-md-12 .material-card .image-fill}
 
 ![](images/BIBO9020_BAN.jpg){.img-fluid}

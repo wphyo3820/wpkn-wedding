@@ -13,9 +13,7 @@ website:
         text: Location
         target: _blank
       - href: index.qmd#photos
-        text: Photos 
-      - href: index.qmd#catering
-        text: Catering
+        text: Photos
       - href: index.qmd#faqs
         text: FAQs
       - href: index.qmd#contact

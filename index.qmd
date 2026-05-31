@@ -6,12 +6,16 @@ subtitle: |
 title-block-banner: images/BIBO9020_BAN.jpg
 toc: false
 anchor-sections: false
-lightbox: true
+lightbox: auto
 ---
+
+![](images/BIBO9020_BAN.jpg){.lightbox style="display:none;width:0;height:0;position:absolute"}
+
+::: {.column-screen-inset}
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-6 .material-card}
+::: {.g-col-12 .g-col-md-4 .material-card}
 
 ## Details{#details}
 
@@ -46,7 +50,7 @@ Your presence at our wedding is the greatest gift of all! However, if you wish t
 :::
 
 
-::: {.g-col-12 .g-col-md-6 .material-card}
+::: {.g-col-12 .g-col-md-4 .material-card}
 
 ## Location{#location}
 
@@ -65,13 +69,50 @@ The ceremony and reception will both be held at the same location.
 <!-- <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 :::
 
+::: {.g-col-12 .g-col-md-4 .material-card}
+
+## Catering Menu{#catering}
+
+---
+
+::: {.callout-important collapse="false"}
+
+Please let us know ahead of time if you have any dietary restrictions.
+
+:::
+
+**Cocktail Hour**\
+
+* Open-bar!
+
+**Appetizers - Stationed**\
+
+* Crab Salad with Chips
+* Veggie Egg Rolls
+* Veggie Crudites
+
+**Main Course**\
+
+* Asian Charcuterie Plate
+* Fish Maw & Crab Soup
+* House Special Lobster with Garlic Noodles
+* Filet Mignon Shaken Beef
+* Honey Walnut Shrimp
+* Peking Duck with Steamed Bun
+* Fish Filet with Sweet Basil Sauce
+* Classic House Special Fried Rice
+* Dessert: Sliced Oranges & Longans
+
+:::
+
+
 ::: {.g-col-12 .material-card}
 
 ## Photos{#photos}
 
 ---
 
-:::: {.carousel .dark .framed} 
+:::: {.carousel .dark .framed indicators="false"} 
 
 :::: {.carousel-item image="images/bia giay.jpg" group="wedding-pics"}
 :::
@@ -125,43 +166,6 @@ The ceremony and reception will both be held at the same location.
 
 :::
 
-
-
-::: {.g-col-12 .material-card}
-
-## Catering Menu{#catering}
-
----
-
-::: {.callout-important collapse="false"}
-
-Please let us know ahead of time if you have any dietary restrictions.
-
-:::
-
-**Cocktail Hour**\
-
-* Open-bar!
-
-**Appetizers - Stationed**\
-
-* Crab Salad with Chips
-* Veggie Egg Rolls
-* Veggie Crudites
-
-**Main Course**\
-
-* Asian Charcuterie Plate
-* Fish Maw & Crab Soup
-* House Special Lobster with Garlic Noodles
-* Filet Mignon Shaken Beef
-* Honey Walnut Shrimp
-* Peking Duck with Steamed Bun
-* Fish Filet with Sweet Basil Sauce
-* Classic House Special Fried Rice
-* Dessert: Sliced Oranges & Longans
-
-:::
 
 ::: {.g-col-12 .material-card}
 
@@ -229,3 +233,4 @@ If you have any questions that aren't covered in the FAQs, or need to reach out 
 
 :::
 
+:::

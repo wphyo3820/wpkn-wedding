@@ -1,0 +1,24 @@
+---
+page-layout: full
+listing:
+  id: listing-gallery
+  template: gallery.ejs
+  contents:
+    - images/photobook/*.jpg
+  sort-ui: false
+  filter-ui: false
+  categories: false
+---
+
+::: {.grid}
+
+::: {.g-col-12 .material-card}
+
+## Photobook
+
+---
+
+::: {#listing-gallery}
+:::
+
+:::

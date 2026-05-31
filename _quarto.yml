@@ -12,18 +12,23 @@ website:
       - href: https://www.google.com/maps?cid=6769603451629656288&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=en&gl=US&source=embed
         text: Location
         target: _blank
-      - href: index.qmd#photos
+      - href: photobook.qmd
         text: Photos
+      - href: index.qmd#catering
+        text: Catering
       - href: index.qmd#faqs
         text: FAQs
       - href: index.qmd#contact
         text: Contact
+      - href: https://google.com
+        text: RSVP
+        target: _blank
     search: false
     pinned: true
     toggle-position: right
   announcement:
     dismissable: true
-    content: "Have you RSVP'ed to our wedding yet? If not please do so by XX.XX.XX!"
+    content: "Have you RSVP'ed to our wedding yet? If not please do so by 11/6/2026!"
     type: warning
     position: above-navbar
 

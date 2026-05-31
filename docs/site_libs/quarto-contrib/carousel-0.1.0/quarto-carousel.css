@@ -1,13 +1,13 @@
 .carousel-item {
   min-height: 300px;
-  /* max-height: 800px; */
+  max-height: 600px;
   position: relative;
   box-sizing: border-box;
 }
 
 .carousel-item img {
   max-width: 100%;
-  /* max-height: 800px; */
+  max-height: 600px;
   height: auto;
   display: block;
 }
